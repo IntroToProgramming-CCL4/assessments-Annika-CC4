@@ -8,4 +8,15 @@ Advanced Requirements:
 Ignore Capitalization: Modify your program to accept answers regardless of the capitalization (e.g., "paris", "Paris", and "PaRis" should all be considered correct).
 Multiple Questions: Extend the program into a quiz that asks for the capitals of 10 European countries. Provide feedback for each question.
 
+capital =input("What is the capital of France? ").lower() # credits for the [].lower() method ] 'Is Python Case Sensitive' in scaler.com
+while capital != "paris": 
+  print("Your answer is incorrect, please try again.")
+  capital =input("What is the capital of France? ")
+  break
+print("your answer is correct!")
+
+
+
+
+
 
