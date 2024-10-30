@@ -6,5 +6,5 @@ Allow the user to input the search term instead of using a predefined value.
 Implement the search functionality based on user input.
 
 names= ["Jake", "Zac", "Ian","Ron", "Sam", "Dave"]
-names[]= input("Exnter name")
+input(names[])
 print(names)
