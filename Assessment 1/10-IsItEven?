@@ -5,3 +5,16 @@ The program should ask the user for a number from within the main function.
 The entered number should be passed to a function that determines if the value is even or odd.
 The function should return a message indicating whether the number is even or odd.
 The message returned by the function should be printed from within the main function.
+
+def value(a):              #(a) is the assigned container of the number to be inputted
+
+    if a%2 == 0:           # '%' Operator, to check if the number divided by 2 is equal to 0.
+        return "even"
+    
+    else: 
+        return "odd"
+    
+number= value(a= int(input("Please input number: ")))       #The variable 'number' catches the return function.
+print(number)                                               #The returned function is now printed to make the code working. 
+
+value()                   #Calling the 'value()' function.
