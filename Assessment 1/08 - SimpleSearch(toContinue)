@@ -1,10 +1,8 @@
-Write a program that searches for a specific string within a list of strings. The list is initialized with specific names ("Jake" "Zac", "Ian", "Ron", "Sam", "Dave"). 
-, and your task is to search for "Sam".
+names=["Jake", "Zac", "Ian", "Ron", "Sam", "Dave"]  # Declare list. 
+Input= input("Enter name: ").capitalize()          #Ask user to input name. #'.capitalize()' function to ignore capitalization. Function by Geekforgeeks.org. 
 
-Optional Requirements:
-Allow the user to input the search term instead of using a predefined value.
-Implement the search functionality based on user input.
+if Input in names:                                # if-else statement to check if the given input is in the list.
+    print ("Name found.")
 
-names= ["Jake", "Zac", "Ian","Ron", "Sam", "Dave"]
-input(names[])
-print(names)
+else: 
+    print ("Name not found.")
